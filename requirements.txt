@@ -1,0 +1,32 @@
+# Document ingestion
+pymupdf==1.24.1
+easyocr==1.7.1
+langdetect==1.0.9
+indic-transliteration==2.3.57
+
+# NER
+gliner==0.2.9
+transformers==4.41.0
+torch==2.3.0
+
+# Vector store / history
+chromadb==0.5.0
+sentence-transformers==3.0.1
+
+# LLM inference (local, quantized)
+llama-cpp-python==0.2.77
+
+# API
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+pydantic==2.7.1
+
+# Frontend
+streamlit==1.35.0
+plotly==5.22.0
+
+# Utilities
+python-dotenv==1.0.1
+numpy==1.26.4
+pandas==2.2.2

@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: medsight-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data          # Persist ChromaDB patient history
+      - ./models:/app/models      # Mount local model files
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+
+  frontend:
+    build: .
+    container_name: medsight-frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: streamlit run app/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    restart: unless-stopped
