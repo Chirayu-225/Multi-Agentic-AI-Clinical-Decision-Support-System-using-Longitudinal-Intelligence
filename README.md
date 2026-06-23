@@ -158,3 +158,28 @@ Built for the Indian healthcare context where:
 - Telemedicine platforms need automated report triage
 - Patients often receive complex reports with no explanation
 - Data privacy regulations prevent cloud-based processing of PHI
+
+
+## Project Snippets 
+
+1) Main Page
+
+<img width="1591" height="784" alt="image" src="https://github.com/user-attachments/assets/b170e569-9eee-45c3-a55a-3671d5552c3a" />
+
+
+2) Multi-Report Analysis with Agentic Reasoning
+
+<img width="1563" height="748" alt="image" src="https://github.com/user-attachments/assets/715ed829-3551-4359-bdce-fbc6f2c165da" />
+
+<img width="1518" height="891" alt="image" src="https://github.com/user-attachments/assets/dedb346e-5fc8-4778-bdf3-0858013ee395" />
+
+<img width="1538" height="848" alt="image" src="https://github.com/user-attachments/assets/8ca3d3a6-796a-4709-b4b2-d62aea0f7daa" />
+
+<img width="1576" height="898" alt="image" src="https://github.com/user-attachments/assets/494ff003-3439-4d16-90f4-39b4f87bb5ca" />
+
+<img width="1512" height="856" alt="image" src="https://github.com/user-attachments/assets/1b92fd4f-82af-4af7-bcd0-c23d7636c056" />
+
+3) Haemoglobin Level
+
+<img width="1549" height="775" alt="image" src="https://github.com/user-attachments/assets/f11a7838-d326-4dca-9591-eb7c4d44c74c" />
+
